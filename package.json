@@ -1,0 +1,11 @@
+{
+  "name": "vibeguard-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd apps/web/frontend && npm run dev",
+    "scan": "python -m services.orchestrator.pipeline",
+    "eval": "python -m experiments.run_experiment_suite",
+    "test": "python -m pytest tests/test_end_to_end_pipeline.py"
+  }
+}

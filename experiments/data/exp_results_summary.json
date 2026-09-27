@@ -1,0 +1,32 @@
+{
+  "AIAG (VibeGuard)": {
+    "precision": 1.0,
+    "recall": 0.9857,
+    "f1_score": 0.9923,
+    "f1_95ci": [
+      0.9769,
+      1.0
+    ],
+    "false_positive_rate": 0.0
+  },
+  "Static-Only SAST": {
+    "precision": 0.5294,
+    "recall": 0.9714,
+    "f1_score": 0.6845,
+    "f1_95ci": [
+      0.6541,
+      0.7097
+    ],
+    "false_positive_rate": 0.4067
+  },
+  "Dynamic-Only DAST": {
+    "precision": 0.7483,
+    "recall": 0.4143,
+    "f1_score": 0.5294,
+    "f1_95ci": [
+      0.4828,
+      0.5761
+    ],
+    "false_positive_rate": 0.0667
+  }
+}
